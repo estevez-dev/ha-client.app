@@ -1,1 +1,1 @@
-![](/assets/scr_main.png)![](/assets/scr_media.png)
+![](/assets/images/scr_main.png)![](/assets/images/scr_media.png)
