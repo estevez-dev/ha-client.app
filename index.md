@@ -10,4 +10,4 @@ The main idea is:
 
 Join [alpha testing](/alpha-testing).
 
-Join discussion in [Home Assistant community])(https://community.home-assistant.io/t/alpha-testing-ha-client-native-android-client-for-home-assistant/69912) or in [Discrod](https://discord.gg/NSaQEQ8).
+Join discussion in [Home Assistant community](https://community.home-assistant.io/t/alpha-testing-ha-client-native-android-client-for-home-assistant/69912) or in [Discrod](https://discord.gg/NSaQEQ8).
