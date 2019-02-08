@@ -1,3 +1,6 @@
+---
+title: This is my title
+---
 ## Welcome to HA Client
 
 You can use the [editor on GitHub](https://github.com/estevez-dev/ha-client.vynn.co/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
