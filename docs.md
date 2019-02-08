@@ -7,7 +7,7 @@
   - [SSL Certificates](#ssl-certificates)
   - [Android](#android)
 - [Authentication](#authentication)
-- [UI configuration](#ui_configuration)
+- [UI configuration](#ui-configuration)
 - [Log Viewer](#log-viewer)
 
 ## Requirements
@@ -78,3 +78,5 @@ There is a built in debug messages viewer in the app. You can access it by *Log*
   ![image](/assets/images/log_viewer.png)
 
 Please note that oldest entries goes first, so to see latest messages you need to scroll this view down.
+
+[Back to top](#documentation)
