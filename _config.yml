@@ -3,3 +3,4 @@ description: Native Android client for Home Assistant
 theme: jekyll-theme-cayman
 google_analytics: UA-125755611-4
 repository_url: https://github.com/estevez-dev/ha_client
+repository_name: ha_client
