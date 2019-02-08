@@ -1,6 +1,6 @@
 # Table of content
 - Requirements
--  Home Assistant general
+-- Home Assistant general
 -  Port
 -  HTTP or HTTPS
 -  SSL Certificates
