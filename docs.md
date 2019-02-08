@@ -49,3 +49,4 @@ Starting from Home Assistant 0.78.0 `api_password` is a deprecated way to authen
   ![image](/assets/images/ha_access_tokens.png)
 3. Give it a name `HA Client` as it will be used only for HA Client app (it is recommended to use different access tokens for different apps and services)
 4. Click *Ok* and copy newly generated access token somewhere in a safe place or directly to Connection settings of HA Client
+  ![image](/assets/images/setting_access_token.png)
