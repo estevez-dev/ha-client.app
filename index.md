@@ -1,4 +1,4 @@
-![App screenshot](/assets/images/scr_main_small.png)New, truly native Home Assistant Android client is ready for open alpha testing!
+New, truly native Home Assistant Android client is ready for open alpha testing!
 It is fast and comfortable. It is designed to make all Home Assistant users with Android phones happy. Well, that is planned.
 
 Now you will not get widgets, Wear OS support and native Android notifications because it is still alpha version. But you’ll get pretty fast way to see and interact with Home Assistant entities. And be sure that widgets and notifications are coming, because this is a reason why you see this app and help us to test and improve it.
