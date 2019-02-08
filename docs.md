@@ -44,9 +44,12 @@ Minimum supported Android API level is 21. That’s Android 5.0 and higher.
 ## Authentication
 Starting from Home Assistant 0.78.0 `api_password` is a deprecated way to authenticate third party apps and services. You should use long-lived access tokens instead. To make HA Client use access token to authenticate you need:
 1. Go to your Home Assistant web interface and open your profile settings (just click on your user picture in the top part of left menu)
+
   ![image](/assets/images/ha_profile.png)
 2. Scroll down to *Long-lived access tokens* section and click *Create token*
+
   ![image](/assets/images/ha_access_tokens.png)
 3. Give it a name `HA Client` as it will be used only for HA Client app (it is recommended to use different access tokens for different apps and services)
 4. Click *Ok* and copy newly generated access token somewhere in a safe place or directly to Connection settings of HA Client
+  
   ![image](/assets/images/setting_access_token.png)
