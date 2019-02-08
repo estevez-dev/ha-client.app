@@ -8,6 +8,15 @@
   background-image: url('/assets/images/header.png');
   background-position: center;
   background-size: cover;
+  
+  a {
+    color: white;
+  }
+  
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 .project-tagline {
