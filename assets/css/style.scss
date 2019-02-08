@@ -5,8 +5,8 @@ $secondary-color: #f3b600;
 
 @import "{{ site.theme }}";
 
-a {
-  color: $secondary-color;
+a, a:link, a:visited, a:hover, a:active {
+  color: $primary-color;
 }
 
 .page-header {
@@ -30,7 +30,7 @@ a {
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  color: $primary-color;
+  color: $secondary-color;
 }
 
 @media screen and (min-width: 64em) {
