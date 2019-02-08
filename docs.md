@@ -67,7 +67,7 @@ Starting from Home Assistant 0.78.0 `api_password` is a deprecated way to authen
 
 [Back to top](#documentation)
 ## UI Configuration
-By default HA Client UI is based on your Lovelace UI config, so it should display the same views as your Home Assistant web UI. It is still possible to switch off Lovelace UI in app settings. In this canse app UI will be based on groups configuration, the same as old Home Assistant UI.
+By default HA Client UI is based on your Lovelace UI config, so it should display the same views as your Home Assistant web UI. It is still possible to switch off Lovelace UI in app settings. In this case app UI will be based on groups configuration, the same as old Home Assistant UI.
 
   ![image](/assets/images/setting_ui.png)
 
