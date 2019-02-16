@@ -25,6 +25,15 @@ a, a:link, a:visited, a:hover, a:active {
   }
 }
 
+.site-footer {
+  text-align: center;
+  
+  a {
+    display: inline-block;
+    padding: 0 0.8rem 0 0.8rem;
+  }
+}
+
 .project-tagline {
   opacity: 1;
 }
