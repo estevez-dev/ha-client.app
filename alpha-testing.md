@@ -2,6 +2,6 @@ The biggest contribution you can make for HA Client is to take part in pre-relea
 
 **Bug tracker**: [https://github.com/estevez-dev/ha_client/issues](https://github.com/estevez-dev/ha_client/issues)
 
-**Discussion**: [Home Assistant](https://community.home-assistant.io/t/ha-client-native-android-client-for-home-assistant/69912) community and [Discord](https://discord.gg/NSaQEQ8)
+**Discussion**: [Home Assistant community](https://community.home-assistant.io/t/ha-client-native-android-client-for-home-assistant/69912)
 
 To join alpha testing you need to join [HA Client group in Google Groups](https://groups.google.com/d/forum/ha-client-alpha-testing). After several minutes you will be able to download the app on [Google Play](https://play.google.com/apps/testing/com.keyboardcrumbs.haclient)
