@@ -10,6 +10,6 @@ The main idea is:
 
 Join [alpha testing](/alpha-testing).
 
-Join discussion in [Home Assistant community](https://community.home-assistant.io/t/alpha-testing-ha-client-native-android-client-for-home-assistant/69912).
+Join discussion in [Home Assistant community](https://community.home-assistant.io/t/alpha-testing-ha-client-native-android-client-for-home-assistant/69912) or on [Discord server](https://discord.gg/AUzEvwn).
 
 Also you can find latest news on HA Client at [somegeeky.website](http://somegeeky.website)
