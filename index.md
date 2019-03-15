@@ -13,3 +13,11 @@ Join [beta testing](/beta-testing).
 Join discussion in [Home Assistant community](https://community.home-assistant.io/t/alpha-testing-ha-client-native-android-client-for-home-assistant/69912) or on [Discord server](https://discord.gg/AUzEvwn).
 
 Also you can find latest news on HA Client at [somegeeky.website](http://somegeeky.website)
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="8QUMKHPWBEBW4" />
+<input type="image" src="https://github.com/estevez-dev/ha-client-website/blob/master/assets/images/paypal_button.png?raw=true" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_UA/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
