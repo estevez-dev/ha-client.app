@@ -108,7 +108,7 @@ By default HA Client UI is based on your Lovelace UI config, so it should displa
 [Back to top](#documentation)
 ## Notifications
 **(HA Client >= 0.6.0)**
-Starting from version 0.6.0 HA Client sipports sending notifications from Home Assistant to the app. The app [should be registered in your HA](#mobile-app-integration) and HA need to be restarted to make it work.
+Starting from version 0.6.0 HA Client supports sending notifications from Home Assistant to the app. The app [should be registered in your HA](#mobile-app-integration) and HA need to be restarted to make it work.
 
 For now notificationas could only have title and text. No actions supported yet. After [mobile app will be registered](#mobile-app-integration) and your Home Assistant will be restarted you'll see a new `notify` service. For example: `notify.mobile_app_egor_s_pixel_3_xl`. It can be used to send notifications to HA Client on a specific device. Just call this service with some data:
 ```yaml
