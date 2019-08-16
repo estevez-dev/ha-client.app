@@ -9,7 +9,7 @@
 - [Authentication](#authentication)
 - [Mobile app integration](#mobile-app-integration)
 - [UI configuration](#ui-configuration)
-- [Notification](#notifications)
+- [Notifications](#notifications)
 - [Log Viewer](#log-viewer)
 
 ## Requirements
@@ -83,7 +83,8 @@ There is also 'Logout' option added. It will disconnect from Home Assistant, cle
 ![image](/assets/images/logout.png)
 
 [Back to top](#documentation)
-## Mobile app integration (HA Client >= 0.6.0)
+## Mobile app integration
+**(HA Client >= 0.6.0)**
 Strating from 0.6.0 `mobile_app` component should be enabled on your Home Assistant server. In nevest versions of HA it is enabled by default. If not, the app will show you an error saying that you need to enable `mobile_app` component on your HA instance. In that case just add this to your `configuration.yaml`:
 ```yaml
 mobile_app:
@@ -105,7 +106,8 @@ By default HA Client UI is based on your Lovelace UI config, so it should displa
   ![image](/assets/images/setting_ui.png)
 
 [Back to top](#documentation)
-## Notification (HA Client >= 0.6.0)
+## Notifications
+**(HA Client >= 0.6.0)**
 Starting from version 0.6.0 HA Client sipports sending notifications from Home Assistant to the app. The app [should be registered in your HA](#mobile-app-integration) and HA need to be restarted to make it work.
 
 For now notificationas could only have title and text. No actions supported yet. After [mobile app will be registered](#mobile-app-integration) and your Home Assistant will be restarted you'll see a new `notify` service. For example: `notify.mobile_app_egor_s_pixel_3_xl`. It can be used to send notifications to HA Client on a specific device. Just call this service with some data:
