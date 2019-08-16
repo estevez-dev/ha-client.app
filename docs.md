@@ -112,8 +112,9 @@ Starting from version 0.6.0 HA Client supports sending notifications from Home A
 
 For now notificationas could only have title and text. No actions supported yet. After [mobile app will be registered](#mobile-app-integration) and your Home Assistant will be restarted you'll see a new `notify` service. For example: `notify.mobile_app_egor_s_pixel_3_xl`. It can be used to send notifications to HA Client on a specific device. Just call this service with some data:
 ```yaml
-{"message":"Something is moving on your backyard!"}
+{"title":"Oi!", "message":"Something is moving on your backyard!"}
 ```
+The `title` is not mandatory, by defauld it will be "HA Client".
 ## Log Viewer
 There is a built in debug messages viewer in the app. You can access it by *Log* item in main menu. It will be very helpful if you will attach a copy of this log to your issue report. It is easy to do with button in header (![image](/assets/images/log_copy_btn.png)) that will copy all log entries to clipboard.
 
