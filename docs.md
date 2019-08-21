@@ -110,7 +110,7 @@ For now notificationas could only have title and text. No actions supported yet.
 ```
 The `title` is not mandatory, by defauld it will be "HA Client".
 #### Important!
-For now Home Assistant don't have a way to detect was current application on carrent device already registered or not. That is why if you will reinstall HA Client or clear all app data, the app will be registered once again and another Integration will be created on your Home Assistant:
+For now Home Assistant don't have a way to detect was current application on current device already registered or not. That is why if you will reinstall HA Client or clear all app data, the app will be registered once again and another Integration will be created on your Home Assistant:
 
   ![image](/assets/images/duplicate_integration.png)
   
