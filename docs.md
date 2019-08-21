@@ -114,7 +114,7 @@ For now Home Assistant don't have a way to detect was current application on cur
 
   ![image](/assets/images/duplicate_integration.png)
   
-As well as two second `notify` service and second `device_tracker` entity. **Notifications will not be handled by HA Client**. To fix this you need to got to *Configuration* - *Integrations* in your Home Assistant and remove any Integration created by HA Client for your device. Then you need to restart Home Assistant server to make all exces entities to be removed.
+As well as second `notify` service and second `device_tracker` entity. **Notifications will not be handled by HA Client**. To fix this you need to got to *Configuration* - *Integrations* in your Home Assistant and remove any Integration created by HA Client for your device. Then you need to restart Home Assistant server to make all exces entities to be removed.
 
 After that you can go to *Config* in HA Client, scroll down to *Mobile app* and *Reset registration*. A new Integration will be created and Home Assistant server should be restarted once again. Notifications should be handled properly now. 
 
