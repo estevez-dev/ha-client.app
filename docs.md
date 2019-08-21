@@ -8,8 +8,8 @@
   - [Android](#android)
 - [Authentication](#authentication)
 - [Mobile app integration](#mobile-app-integration)
+  - [Notifications](#notifications)
 - [UI configuration](#ui-configuration)
-- [Notifications](#notifications)
 - [Log Viewer](#log-viewer)
 
 ## Requirements
@@ -55,6 +55,18 @@ Minimum supported Android API level is 21. That’s Android 5.0 and higher.
 
 [Back to top](#documentation)
 ## Authentication
+### HA Client 0.6.0 and higher
+Starting from version 0.6.0 HA Client will be authenticating through [Home Assistant Authentication API](https://developers.home-assistant.io/docs/en/auth_api.html). You don't need to create and recreate access tokens any more. For now if HA Client is not authenticated yet or there is some issues logging in, it will ask you to login to your Home Assistant web interface with your credential:
+
+![image](/assets/images/oauth.png)
+
+After successfull login HA Client will get secure code, request long-lived token from Home Assistant automatically and store it is secure storage of your Android device.
+
+There is also 'Logout' option added. It will disconnect from Home Assistant, clear the UI and remove long-lived token from secure storage:
+
+![image](/assets/images/logout.png)
+
+[Back to top](#documentation)
 ### Prior HA Client 0.6.0
 Starting from Home Assistant 0.78.0 `api_password` is a deprecated way to authenticate third party apps and services. You should use long-lived access tokens instead. To make HA Client use access token to authenticate you need:
 1. Go to your Home Assistant web interface and open your profile settings (just click on your user picture in the top part of left menu)
@@ -69,18 +81,6 @@ Starting from Home Assistant 0.78.0 `api_password` is a deprecated way to authen
 4. Click *Ok* and copy newly generated access token somewhere in a safe place or directly to Connection settings of HA Client
   
   ![image](/assets/images/setting_access_token.png)
-
-[Back to top](#documentation)
-### HA Client 0.6.0 and higher
-Starting from version 0.6.0 HA Client will be authenticating through [Home Assistant Authentication API](https://developers.home-assistant.io/docs/en/auth_api.html). You don't need to create and recreate access tokens any more. For now if HA Client is not authenticated yet or there is some issues logging in, it will ask you to login to your Home Assistant web interface with your credential:
-
-![image](/assets/images/oauth.png)
-
-After successfull login HA Client will get secure code, request long-lived token from Home Assistant automatically and store it is secure storage of your Android device.
-
-There is also 'Logout' option added. It will disconnect from Home Assistant, clear the UI and remove long-lived token from secure storage:
-
-![image](/assets/images/logout.png)
 
 [Back to top](#documentation)
 ## Mobile app integration
@@ -100,13 +100,7 @@ Also new integration will be created in your Home Assistant Integrations:
 For now it means that you can use [notofications](#notifications) in HA Client. But to make new `notify` service appear you need to restart Home Assistant.
 
 [Back to top](#documentation)
-## UI Configuration
-By default HA Client UI is based on your Lovelace UI config, so it should display the same views as your Home Assistant web UI. It is still possible to switch off Lovelace UI in app settings. In this case app UI will be based on groups configuration, the same as old Home Assistant UI.
-
-  ![image](/assets/images/setting_ui.png)
-
-[Back to top](#documentation)
-## Notifications
+### Notifications
 **(HA Client >= 0.6.0)**
 Starting from version 0.6.0 HA Client supports sending notifications from Home Assistant to the app. The app [should be registered in your HA](#mobile-app-integration) and HA need to be restarted to make it work.
 
@@ -115,6 +109,22 @@ For now notificationas could only have title and text. No actions supported yet.
 {"title":"Oi!", "message":"Something is moving on your backyard!"}
 ```
 The `title` is not mandatory, by defauld it will be "HA Client".
+#### Important!
+For now Home Assistant don't have a way to detect was current application on carrent device already registered or not. That is why if you will reinstall HA Client or clear all app data, the app will be registered once again and another Integration will be created on your Home Assistant:
+
+  ![image](/assets/images/duplicate_integration.png)
+  
+As well as two second `notify` service and second `device_tracker` entity. **Notifications will not be handled by HA Client**. To fix this you need to got to *Configuration* - *Integrations* in your Home Assistant and remove any Integration created by HA Client for your device. Then you need to restart Home Assistant server to make all exces entities to be removed.
+
+After that you can go to *Config* in HA Client, scroll down to *Mobile app* and *Reset registration*. A new Integration will be created and Home Assistant server should be restarted once again. Notifications should be handled properly now. 
+
+[Back to top](#documentation)
+## UI Configuration
+By default HA Client UI is based on your Lovelace UI config, so it should display the same views as your Home Assistant web UI. It is still possible to switch off Lovelace UI in app settings. In this case app UI will be based on groups configuration, the same as old Home Assistant UI.
+
+  ![image](/assets/images/setting_ui.png)
+
+[Back to top](#documentation)
 ## Log Viewer
 There is a built in debug messages viewer in the app. You can access it by *Log* item in main menu. It will be very helpful if you will attach a copy of this log to your issue report. It is easy to do with button in header (![image](/assets/images/log_copy_btn.png)) that will copy all log entries to clipboard.
 
