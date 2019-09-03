@@ -16,7 +16,7 @@
 ### Home Assistant general
 To check if you are using right configuration for app, try to access your Home Assistant web interface with the same protocol (http:// or https://), the same domain or IP and port. If it is not loading – the app will not work as well.
 
-To connect to your Home Assistant instance with HA Client you need `mobile_app` components to be enabled. Just add (or check if exist) this line to your `configuration.yaml`:
+To connect to your Home Assistant instance with HA Client you need `mobile_app` component to be enabled. Just add (or check if exist) this line to your `configuration.yaml`:
 
 ```yaml
 mobile_app:
