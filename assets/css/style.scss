@@ -9,6 +9,10 @@ a, a:link, a:visited, a:hover, a:active {
   color: $primary-color;
 }
 
+#adv {
+  text-align: center;
+}
+
 .page-header {
   background-color: $primary-color;
   background-image: url('/assets/images/header.png');
