@@ -1,4 +1,4 @@
-The biggest contribution you can make for HA Client is to take part in testing and leave your feedback or report bugs in a form of issue on [github](https://github.com/estevez-dev/ha_client/issues). Use [log viewer](/dosc#log-viewer) to provide some logs.
+The biggest contribution you can make for HA Client is to take part in testing and leave your feedback or report bugs in a form of issue on [github](https://github.com/estevez-dev/ha_client/issues). Use [log viewer](/docs#log-viewer) to provide some logs.
 
 **Bug tracker**: [https://github.com/estevez-dev/ha_client/issues](https://github.com/estevez-dev/ha_client/issues)
 
