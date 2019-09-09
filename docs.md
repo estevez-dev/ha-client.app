@@ -47,7 +47,7 @@ Using of self-signed certificate is not possible for now and this is a restricti
 Minimum supported Android API level is 21. That’s Android 5.0 and higher.
 
 [Back to top](#documentation)
-{% include /blocks/in_post.html %}
+{% include in_post.html %}
 ## Authentication
 There is two ways to login to Home Assistant with HA Client
 ### Home Assistant OAuth
@@ -117,6 +117,7 @@ As well as second `notify` service and second `device_tracker` entity. **Notific
 After that you can go to *Config* in HA Client, scroll down to *Mobile app* and *Reset registration*. A new Integration will be created and Home Assistant server should be restarted once again. Notifications should be handled properly now. 
 
 [Back to top](#documentation)
+{% include in_post.html %}
 ## UI Configuration
 By default HA Client UI is based on your Lovelace UI config, so it should display the same views as your Home Assistant web UI. It is still possible to switch off Lovelace UI in app settings. In this case app UI will be based on groups configuration, the same as old Home Assistant UI.
 
