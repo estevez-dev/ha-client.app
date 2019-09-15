@@ -1,6 +1,6 @@
-#0.6.7
+# 0.6.7
 - *NEW*
-#0.6.6
+# 0.6.6
 - **Share media url to any media_player!** You can now use Android share menu to share any url to HA Client. HA Client will ask you to choose one of your media players and try to play that media on selected player. Media extractor also supported.
 - **Gauge card** support
 - **Lovelace view as panel** support
