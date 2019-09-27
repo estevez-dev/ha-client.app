@@ -49,6 +49,7 @@ Minimum supported Android API level is 21. That’s Android 5.0 and higher.
 [Back to top](#documentation)
 ## Authentication
 There is two ways to login to Home Assistant with HA Client
+{% include in_post.html %}
 ### Home Assistant OAuth
 HA Client will login through [Home Assistant Authentication API](https://developers.home-assistant.io/docs/en/auth_api.html). You don't need to create and recreate access tokens. If HA Client is not authenticated yet or there is some issues logging in, it will ask you to login to your Home Assistant web interface with your credentials:
 
@@ -79,6 +80,7 @@ To make HA Client use your generated long-lived token you need:
 
 [Back to top](#documentation)
 ## Mobile app integration
+{% include in_post.html %}
 **(HA Client >= 0.6.0)**
 Strating from 0.6.0 `mobile_app` component should be enabled on your Home Assistant server. If it is disabled, the app will show you an error saying that you need to enable `mobile_app` component on your HA instance. In that case just add this to your `configuration.yaml`:
 
@@ -130,3 +132,4 @@ There is a built in debug messages viewer in the app. You can access it by *Log*
 Please note that oldest entries goes first, so to see latest messages you need to scroll this view down.
 
 [Back to top](#documentation)
+{% include in_post.html %}
