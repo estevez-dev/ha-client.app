@@ -48,8 +48,8 @@ Minimum supported Android API level is 21. That’s Android 5.0 and higher.
 
 [Back to top](#documentation)
 ## Authentication
-There is two ways to login to Home Assistant with HA Client
 {% include in_post.html %}
+There is two ways to login to Home Assistant with HA Client
 ### Home Assistant OAuth
 HA Client will login through [Home Assistant Authentication API](https://developers.home-assistant.io/docs/en/auth_api.html). You don't need to create and recreate access tokens. If HA Client is not authenticated yet or there is some issues logging in, it will ask you to login to your Home Assistant web interface with your credentials:
 
@@ -119,6 +119,7 @@ After that you can go to *Config* in HA Client, scroll down to *Mobile app* and 
 
 [Back to top](#documentation)
 ## UI Configuration
+{% include in_post.html %}
 By default HA Client UI is based on your Lovelace UI config, so it should display the same views as your Home Assistant web UI. It is still possible to switch off Lovelace UI in app settings. In this case app UI will be based on groups configuration, the same as old Home Assistant UI.
 
   ![image](/assets/images/setting_ui.png)
@@ -132,4 +133,3 @@ There is a built in debug messages viewer in the app. You can access it by *Log*
 Please note that oldest entries goes first, so to see latest messages you need to scroll this view down.
 
 [Back to top](#documentation)
-{% include in_post.html %}
