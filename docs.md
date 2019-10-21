@@ -9,6 +9,7 @@
 - [Authentication](#authentication)
 - [Mobile app integration](#mobile-app-integration)
   - [Notifications](#notifications)
+  - [Location tracking](#location-tracking)
 - [UI configuration](#ui-configuration)
 - [Log Viewer](#log-viewer)
 
