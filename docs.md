@@ -98,7 +98,7 @@ Also new integration will be created in your Home Assistant Integrations:
 
   ![image](/assets/images/mobile_app_registered-2.png)
   
-It means that you can use [notofications](#notifications) and [location tracking](#location-tracking) in HA Client. But to make new `notify` service appear you need to restart Home Assistant.
+It means that you can use [notifications](#notifications) and [location tracking](#location-tracking) in HA Client. But to make new `notify` service appear you need to restart Home Assistant.
 
 **(HA Client >= 0.7.0)** _Integration settings_ item is available in main menu for mobile app integration configuration:
 
@@ -123,7 +123,7 @@ Starting from version 0.7.0 HA Client supports updating `device_tracker` entity 
 Location tracking is implemented with [Andorid Workmanager](https://developer.android.com/topic/libraries/architecture/workmanager). It means that background location tracking is battery friendly and work as intended from OS perspective. But it also means that:
 
 #### If you want your location to be updated with exact the same intervhals you set in HA Client
-you need to add exaption for HA Client in battery saving settings on your Android device. It can be achieved differently on different Android versions and even on different devices. For example in Android 10 on Pixel phones you need to go to _Settings_ -> _Apps & notifications_ tap _Advanced_ -> _Special app access_ -> _Battery optimization_. Or simply search for _Battery optimization_ on main _Settings_ screen with search field. Inside _Battery optimization_ switch to _All apps_, find _HA Client_ in the list and tap it. On the popup appeared choos _Don't optimize_:
+you need to add exaption for HA Client in battery saving settings on your Android device. It can be achieved differently on different Android versions and even on different devices. For example in Android 10 on Pixel phones you need to go to _Settings_ -> _Apps & notifications_ tap _Advanced_ -> _Special app access_ -> _Battery optimization_. Or simply search for _Battery optimization_ on main _Settings_ screen with search field. Inside _Battery optimization_ switch to _All apps_, find _HA Client_ in the list and tap it. On the popup appeared choose _Don't optimize_:
 
 ![Battery optimization](/assets/images/114551.png)
 
