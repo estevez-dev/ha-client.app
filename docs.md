@@ -10,6 +10,7 @@
 - [Mobile app integration](#mobile-app-integration)
   - [Notifications](#notifications)
   - [Location tracking](#location-tracking)
+  - [Integration troubleshooting](#integration-troubleshooting)
 - [UI configuration](#ui-configuration)
 - [Log Viewer](#log-viewer)
 
@@ -97,7 +98,11 @@ Also new integration will be created in your Home Assistant Integrations:
 
   ![image](/assets/images/mobile_app_registered-2.png)
   
-For now it means that you can use [notofications](#notifications) in HA Client. But to make new `notify` service appear you need to restart Home Assistant.
+It means that you can use [notofications](#notifications) and [location tracking](#location-tracking) in HA Client. But to make new `notify` service appear you need to restart Home Assistant.
+
+**(HA Client >= 0.7.0)** _Integration settings_ item is available in main menu for mobile app integration configuration:
+
+![Integration settings](/assets/images/103239-01.jpeg)
 
 [Back to top](#documentation)
 ### Notifications
@@ -113,17 +118,24 @@ The `title` is not mandatory, by defauld it will be "HA Client".
 **(HA Client >= 0.7.0)**
 Starting from version 0.7.0 HA Client supports updating `device_tracker` entity with real device GPS location. The app [should be registered in your HA](#mobile-app-integration) and HA need to be restarted to make it work.
 
-After [mobile app will be registered](#mobile-app-integration) and your Home Assistant will be restarted you'll see a new `device_tracker` entity. For example: `device_tracker.mobile_app_egor_s_pixel_3_xl`. To start sending location to this entity you need to enable Location tracking in HA Client "Configuration".
+Location tracking is implemented with [Andorid Workmanager](https://developer.android.com/topic/libraries/architecture/workmanager). It means that background location tracking is battery friendly and work as intended from OS perspective. But it also means that:
 
-#### Important!
+**If you want your location to be updated with exact the same intervhals you set in HA Client you need to add exaption for HA Client in battery saving settings on your Android device.** It can be achieved differently on different Android versions and even on different devices. For example in Android 10 you need to go to _Settings_ -> _Apps & notifications_ tap _Advanced_ -> _Special app access_ -> _Battery optimization_. Or simply search for _Battery optimization_ on main _Settings_ screen with search field. Inside _Battery optimization_ switch to _All apps_, find _HA Client_ in the list and tap it. On the popup appeared choos _Don't optimize_:
+
+![Battery optimization](/assets/images/114551.png)
+
+After [mobile app will be registered](#mobile-app-integration) and your Home Assistant will be restarted you'll see a new `device_tracker` entity. For example: `device_tracker.mobile_app_egor_s_pixel_3_xl`. To start sending location to this entity you need to enable Location tracking in HA Client through _Integration settings_ item in main menu (HA Client >= 0.7.0):
+
+![Location tracking settings](/assets/images/103202.png)
+
+### Integration troubleshooting
 For now Home Assistant don't have a way to detect was current application on current device already registered or not. That is why if you will reinstall HA Client or clear all app data, the app will be registered once again and another Integration will be created on your Home Assistant:
 
   ![image](/assets/images/duplicate_integration.png)
   
 As well as second `notify` service and second `device_tracker` entity. **Notifications will not be handled by HA Client**. To fix this you need to got to *Configuration* - *Integrations* in your Home Assistant and remove any Integration created by HA Client for your device. Then you need to restart Home Assistant server to make all exces entities to be removed.
 
-After that you can go to *Config* in HA Client, scroll down to *Mobile app* and *Reset registration*. A new Integration will be created and Home Assistant server should be restarted once again. Notifications should be handled properly now. 
-
+After that you can go to *Config* in HA Client, scroll down to *Mobile app* and *Reset registration*. A new Integration will be created and Home Assistant server should be restarted once again. Notifications should be handled properly now.
 [Back to top](#documentation)
 ## UI Configuration
 {% include in_post.html %}
