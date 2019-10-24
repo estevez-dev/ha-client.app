@@ -114,6 +114,8 @@ For now notificationas could only have title and text. No actions supported yet.
 {"title":"Oi!", "message":"Something is moving on your backyard!"}
 ```
 The `title` is not mandatory, by defauld it will be "HA Client".
+
+Please note: there is a restriction on daily notifications count for each device: **150**. 
 ### Location tracking
 **(HA Client >= 0.7.0)**
 Starting from version 0.7.0 HA Client supports updating `device_tracker` entity with real device GPS location. The app [should be registered in your HA](#mobile-app-integration) and HA need to be restarted to make it work.
@@ -131,6 +133,8 @@ After [mobile app will be registered](#mobile-app-integration) and your Home Ass
 
 ### Integration troubleshooting
 #### Notification issues
+Please note: there is a restriction on daily notifications count for each device: **150**.
+
 For now Home Assistant don't have a way to detect was current application on current device already registered or not. That is why if you will reinstall HA Client or clear all app data, the app will be registered once again and another Integration will be created on your Home Assistant:
 
   ![image](/assets/images/duplicate_integration.png)
