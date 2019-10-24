@@ -130,6 +130,7 @@ After [mobile app will be registered](#mobile-app-integration) and your Home Ass
 ![Location tracking settings](/assets/images/103202.png)
 
 ### Integration troubleshooting
+#### Notification issues
 For now Home Assistant don't have a way to detect was current application on current device already registered or not. That is why if you will reinstall HA Client or clear all app data, the app will be registered once again and another Integration will be created on your Home Assistant:
 
   ![image](/assets/images/duplicate_integration.png)
@@ -137,8 +138,10 @@ For now Home Assistant don't have a way to detect was current application on cur
 As well as second `notify` service and second `device_tracker` entity. **Notifications will not be handled by HA Client**. To fix this you need to got to *Configuration* - *Integrations* in your Home Assistant and remove any Integration created by HA Client for your device. Then you need to restart Home Assistant server to make all exces entities to be removed.
 
 After that you can go to *Config* in HA Client, scroll down to *Mobile app* and *Reset registration*. A new Integration will be created and Home Assistant server should be restarted once again. Notifications should be handled properly now.
-
-If your `device_tracker` location is not updating as intended, please check [location tracking section](#if-you-want-your-location-to-be-updated-with-exact-the-same-intervhals-you-set-in-ha-client) of this guide.
+#### Location tracking issues
+- If the [issue with duplicate integration](#notification-issues) is not your case but your `device_tracker` location is not updating as intended, please check [location tracking section](#if-you-want-your-location-to-be-updated-with-exact-the-same-intervhals-you-set-in-ha-client) of this guide.
+- Also make sure the Location permission is granted for HA Client.
+- You can disable background location tracking background task and enable it again to resolve possible issue. Go to _Integration settongs_ from HA Client main menu, disable Location tracking and **go back to the main screen**. Then open _Integration settings_ once again and enable Location tracking back.
 [Back to top](#documentation)
 ## UI Configuration
 {% include in_post.html %}
