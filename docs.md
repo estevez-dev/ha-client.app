@@ -142,6 +142,7 @@ After that you can go to *Config* in HA Client, scroll down to *Mobile app* and 
 - If the [issue with duplicate integration](#notification-issues) is not your case but your `device_tracker` location is not updating as intended, please check [location tracking section](#if-you-want-your-location-to-be-updated-with-exact-the-same-intervhals-you-set-in-ha-client) of this guide.
 - Also make sure the Location permission is granted for HA Client.
 - You can disable background location tracking background task and enable it again to resolve possible issue. Go to _Integration settongs_ from HA Client main menu, disable Location tracking and **go back to the main screen**. Then open _Integration settings_ once again and enable Location tracking back.
+
 [Back to top](#documentation)
 ## UI Configuration
 {% include in_post.html %}
