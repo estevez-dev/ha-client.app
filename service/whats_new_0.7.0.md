@@ -1,5 +1,5 @@
 # 0.7.0
-- **Location tracking!** - I'm so excited to release this feature! Finally the `device_tracker` entity created by `mobile_app` integration will be updated with your current location! You can configure location tracking in "Configuration" section of the app. Have fun, but pay attention on changes made for this to work:
+- **Location tracking!** - I'm so excited to release this feature! Finally the `device_tracker` entity created by `mobile_app` integration will be updated with your current location! You can configure location tracking in "Integration settings" from main app menu. Have fun, but pay attention on changes made for this to work:
   - **Authentication** with Home Assistant login migrated from webview to deep links. Login form will be displayed now in a browser window.
   - **Webview panels** now will be opened in a Chrome custom tab (or browser window), so authenticated webviews will not work. It means that you'll need to login to your HA once again during first visit.
 - **Tablet UI** - cards now distributed evenly by columns depending on screen width. Entity page for tablets and phones in landscape now will be shown as a panel in the right part of the screen.
