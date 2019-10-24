@@ -141,7 +141,7 @@ For now Home Assistant don't have a way to detect was current application on cur
   
 As well as second `notify` service and second `device_tracker` entity. **Notifications will not be handled by HA Client**. To fix this you need to got to *Configuration* - *Integrations* in your Home Assistant and remove any Integration created by HA Client for your device. Then you need to restart Home Assistant server to make all exces entities to be removed.
 
-After that you can go to *Config* in HA Client, scroll down to *Mobile app* and *Reset registration*. A new Integration will be created and Home Assistant server should be restarted once again. Notifications should be handled properly now.
+Then just open HA Client app. It will check mobile app integration and ask you to registrer a new one.
 #### Location tracking issues
 - If the [issue with duplicate integration](#notification-issues) is not your case but your `device_tracker` location is not updating as intended, please check [location tracking section](#if-you-want-your-location-to-be-updated-with-exact-the-same-intervhals-you-set-in-ha-client) of this guide.
 - Also make sure the Location permission is granted for HA Client.
