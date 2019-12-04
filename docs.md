@@ -164,3 +164,5 @@ There is a built in debug messages viewer in the app. You can access it by *Log*
 Please note that oldest entries goes first, so to see latest messages you need to scroll this view down.
 
 [Back to top](#documentation)
+
+If this documentation was not useful enough for you, feel free to ask any question in [HA Client community on Spectrum.chat](https://spectrum.chat/ha-client)
