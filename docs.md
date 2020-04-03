@@ -1,5 +1,5 @@
 # Documentation
-If this documentation was not useful enough for you, feel free to ask any question in [HA Client community on Spectrum.chat](https://spectrum.chat/ha-client)
+If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
 ## Table of content
 - [Requirements](#requirements)
   - [Home Assistant general](#home-assistant-general)
