@@ -1,6 +1,6 @@
 # 0.8.0
 
- - **Live camera view**. You can now see camera stream on camera entity page. Video streams are also supported as well as SVG images and any other rype of cameras. Also with fillscreen option.
+ - **Live camera view**. You can now see camera stream on camera entity page. Video streams are also supported as well as SVG images and any other rype of cameras. Also with fullscreen option.
 
  - **Webview is back!** Login with Home Assistant now works stable and can be performed without any browser. As well as pannels.
 
