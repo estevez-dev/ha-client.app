@@ -8,4 +8,4 @@ The biggest contribution you can make for HA Client is to take part in testing a
 
 To join beta testing you need to register for it on [Google Play](https://play.google.com/apps/testing/com.keyboardcrumbs.haclient) or just go to the app by [direct link](https://play.google.com/store/apps/details?id=com.keyboardcrumbs.haclient)
 
-There also an option to test alpha versions. Join [HA Client community on Spectrum.chat](https://spectrum.chat/ha-client) for more info.
+There also an option to test alpha versions. Join [HA Client on Discord](https://discord.gg/nd6FZQ) for more info.
