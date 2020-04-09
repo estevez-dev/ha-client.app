@@ -8,7 +8,7 @@
  
  ![gauges](https://ha-client.app/assets/images/whats_new/0.8/gauge.png)
  
- - Spectrum link replaced with Discord server link. Join [HA Client Discord server](https://discord.gg/CBZpKu)!
+ - Spectrum link replaced with Discord server link. Join from main app menu!
 # 0.8.1
  - Some hotfixes for Lovelace dashboards
 # 0.8.0
@@ -17,7 +17,7 @@
 
  - **Webview is back!** Login with Home Assistant now works stable and can be performed without any browser. As well as pannels.
 
- - HA Client website was moved to [ha-client.app](https://ha-client.app) domain and secured with ssl.
+ - HA Client website was moved to *ha-client.app* domain and secured with ssl.
 
  - **Data caching** added to speed up UI appearance on slow network connections  
 
