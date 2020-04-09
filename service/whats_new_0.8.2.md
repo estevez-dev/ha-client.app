@@ -1,8 +1,14 @@
 # 0.8.2
- - *Camera stream fixes* - one more take on Home Assistant camera streams.
- - *New default app colors and Dark Theme*. Dark theme will be enabled automatically when you turn on system-wide Dark Theme on Andorid
+ - **Camera stream fixes** - one more take on Home Assistant camera streams.
+ - **New default app colors and Dark Theme**. Dark theme will be enabled automatically when you turn on system-wide Dark Theme on Andorid
  
- - Spectrum link replaced back to Discord server link. Join [HA Client Discord server](https://discord.gg/CBZpKu)!
+ ![themes](/assets/images/whats_new/0.8/themes.png)
+ 
+ - **New Gauge card**
+ 
+ ![themes](/assets/images/whats_new/0.8/gauge.png)
+ 
+ - Spectrum link replaced with Discord server link. Join [HA Client Discord server](https://discord.gg/CBZpKu)!
 # 0.8.1
  - Some hotfixes for Lovelace dashboards
 # 0.8.0
