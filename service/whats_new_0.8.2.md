@@ -2,11 +2,11 @@
  - **Camera stream fixes** - one more take on Home Assistant camera streams.
  - **New default app colors and Dark Theme**. Dark theme will be enabled automatically when you turn on system-wide Dark Theme on Andorid
  
- ![themes](/assets/images/whats_new/0.8/themes.png)
+ ![themes](https://ha-client.app/assets/images/whats_new/0.8/themes.png)
  
  - **New Gauge card**
  
- ![gauges](/assets/images/whats_new/0.8/gauge.png)
+ ![gauges](https://ha-client.app/assets/images/whats_new/0.8/gauge.png)
  
  - Spectrum link replaced with Discord server link. Join [HA Client Discord server](https://discord.gg/CBZpKu)!
 # 0.8.1
