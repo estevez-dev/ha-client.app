@@ -1,6 +1,6 @@
 # 0.8.2
  - **Camera stream fixes** - one more take on Home Assistant camera streams. Please test and report issues if any.
- - **New default app colors and Dark Theme**. Dark theme will be enabled automatically when you turn on system-wide Dark Theme on Andorid
+ - **New default app colors and Dark Theme**. Dark theme will be enabled automatically when you turn on system-wide Dark Theme on Android
  
  ![themes](https://ha-client.app/assets/images/whats_new/0.8/themes.png)
  
