@@ -17,6 +17,7 @@ If this documentation was not useful enough for you, feel free to ask any questi
 
 ## Requirements
 ### Home Assistant general
+#### Requires Home Assistant 0.104 or higher!
 To check if you are using right configuration for app, try to access your Home Assistant web interface with the same protocol (http:// or https://), the same domain or IP and port. If it is not loading – the app will not work as well.
 
 To connect to your Home Assistant instance with HA Client you need `mobile_app` component to be enabled. Just add (or check if exist) this line to your `configuration.yaml`:
