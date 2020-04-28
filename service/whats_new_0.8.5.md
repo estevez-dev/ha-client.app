@@ -1,13 +1,13 @@
 # 0.8.5
 * **Push notifications fix**
 * **Card separation**. Use Markdown Card with `***` in content to add empty space between cards:
-![](https://ha-client.app/assets/images/whats_new/0.8/001.png)
+![image](https://ha-client.app/assets/images/whats_new/0.8/001.png)
 
 * **Horizontal stack card sizes improvement**
-![](https://ha-client.app/assets/images/whats_new/0.8/002.png)
+![image](https://ha-client.app/assets/images/whats_new/0.8/002.png)
 
 * **Gauge Card improvements**
-![](https://ha-client.app/assets/images/whats_new/0.8/003.png)
+![image](https://ha-client.app/assets/images/whats_new/0.8/003.png)
 * **Prevent double service call** for light entity sliders
 * **Icon support for Entities Card header**
 * **Button Card without entity** support
