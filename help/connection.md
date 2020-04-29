@@ -24,5 +24,7 @@ Then just go to **App settings** in HA Client, choose **Connection settings**, p
 
 
 [Back to top](##documentation---connection)
-Previous: [What you need](/help/what_you_need)
-Next: [Connection](/help/connection)
+
+
+
+### [What you need](/help/what_you_need) < Previous | Next > [Connection](/help/connection)
