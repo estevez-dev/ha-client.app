@@ -1,4 +1,4 @@
-# [Documentation](/help) - User interface
+# [Help pages](/help) - User interface
 If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
 
 - [Supported Lovelace Cards](#supported-cards)
@@ -19,11 +19,11 @@ HA Client tries its best to display the same [Lovelace](https://www.home-assista
 - [Media control](https://www.home-assistant.io/lovelace/media-control/)
 - [Vertical stack](https://www.home-assistant.io/lovelace/vertical-stack/)
 
-[Back to top](#documentation---user-interface)
+[Back to top](#help-pages---user-interface)
 
 ## Additional UI tricks
 If you whant to add additional vertical space between cards you can use [Markdown](https://www.home-assistant.io/lovelace/markdown/) card setting its **content** to `***`.
 
-[Back to top](#documentation---user-interface)
+[Back to top](#help-pages---user-interface)
 
 ### [Connection](/help/connection) < Previous | Next > [Mobile App Integration](/help/mobile_app_integration)
