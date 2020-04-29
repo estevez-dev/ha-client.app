@@ -22,4 +22,4 @@ Minimum supported Android API level is 21. That’s **Android 5.0** and higher.
 
 [Back to top](##documentation---what-you-need)
 
-#### > Next: [Connection](/help/connection)
+### Next > [Connection](/help/connection)
