@@ -20,7 +20,7 @@ If this documentation was not useful enough for you, feel free to ask any questi
 #### Requires Home Assistant 0.104 or higher!
 To check if you are using right configuration for app, try to access your Home Assistant web interface with the same protocol (http:// or https://), the same domain or IP and port. If it is not loading – the app will not work as well.
 
-To connect to your Home Assistant instance with HA Client you need `mobile_app` component to be enabled. Just add (or check if exist) this line to your `configuration.yaml`:
+To connect to your Home Assistant instance with HA Client you need `mobile_app` component to be enabled. If you have `default_config` in your `configuration.yaml` you don't need to add anything. If not - just add (or check if exist) this line to your `configuration.yaml`:
 
 ```yaml
 mobile_app:
@@ -30,21 +30,27 @@ Also to make HA Client work outside of your home network [remote access](https:/
 
 [Back to top](#documentation)
 ### Port
+You don't need to worry about port if you are using [Remote UI](https://www.nabucasa.com/config/remote/). Just leave it blank.
+
 By default your Home Assistant is using port number `8123`. But to access your instance from outside of your home network, probably you configured some port forwarding rules on you router. If you forward some other port from outside to `8123` port on Home Assistant IP, you need to use that port instead.
 
 If you are accessing your web interface without port, then you need to try port `80` or `443` in app.
 
+You can also try to leave port number field blank to make HA Client to try to choose port for you. May be it will succeed.
+
 [Back to top](#documentation)
 ### HTTP or HTTPS
+You don't need to worry about this option if you are using [Remote UI](https://www.nabucasa.com/config/remote/). Just leave it as is.
+
 It is not required to use secure connection. Just remember: if you are accessing your web interface with `http`, you need to switch “Use ssl” off in app settings as well.
 
-But if you are using ssl (accessing web interface with `https://`) – your certificate should be valid (not self-signed). This is not a restriction of HA Client, but a known issue of Flutter framework.
+But if you are using ssl (accessing web interface with `https://`) – your certificate should be valid and **not self-signed**. This is not a restriction of HA Client, but a known issue of Flutter framework.
 
 [Back to top](#documentation)
 ### SSL Certificates
 The main requirement is that your SSL Certificate should not be self-signed. Most certificates from providers like Let’s Encrypt will work. There is [known issue](https://github.com/estevez-dev/ha_client_pub/issues/24) with RapidSSL certificate, but this problem is common not only for HA Client.
 
-Using of self-signed certificate is not possible for now and this is a restriction of Flutter’s WebSocket implementation. To stay up to date with this issue solving or possible workarounds please [follow this issue in GitHub](https://github.com/estevez-dev/ha_client_pub/issues/3).
+Using of self-signed certificate is not possible for now and this is a restriction of Flutter’s WebSocket implementation.
 
 [Back to top](#documentation)
 ### Android
