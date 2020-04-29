@@ -1,12 +1,13 @@
 # Documentation
 If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
 ## Table of content
-- [Requirements](#requirements)
-  - [Home Assistant general](#home-assistant-general)
-  - [Port](#port)
-  - [HTTP or HTTPS](#http-or-https)
-  - [SSL Certificates](#ssl-certificates)
-  - [Android](#android)
+- [What you need](/help/what_you_need)
+  - [Home Assistant](/help/what_you_need#home-assistant)
+  - [Android](/help/what_you_need#android)
+
+
+
+
 - [Authentication](#authentication)
 - [Mobile app integration](#mobile-app-integration)
   - [Notifications](#notifications)
