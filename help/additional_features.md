@@ -1,9 +1,12 @@
 # [Help pages](/help) - Additional features
-If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
-{% include in_post.html %}
+
 - [Media players](#media-palyers)
 - [Lights](#lights)
 - [Log viewer](#log-viewer)
+
+If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
+
+{% include in_post.html %}
 
 ## Media players
 

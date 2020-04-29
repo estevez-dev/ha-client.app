@@ -1,8 +1,11 @@
 # [Help pages](/help) - What You Need
-If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
-{% include in_post.html %}
+
 - [Home Assistant](#home-assistant)
 - [Android](#android)
+
+{% include in_post.html %}
+
+If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
 
 ## Home Assistant
 Of course you need [Home Assistant](https://www.home-assistant.io/) to make HA Client work. The version of Home Assintant should be **0.104** or higher.

@@ -1,9 +1,12 @@
 # [Help pages](/help) - Mobile app integration
-If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
-{% include in_post.html %}
+
 - [Notifications](#notifications)
 - [Location tracking](#location-tracking)
 - [Troubleshooting](#troubleshooting)
+
+If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
+
+{% include in_post.html %}
 
 Home Assistant [Mobile App Integration](https://www.home-assistant.io/integrations/mobile_app/) allows HA Client to handle push notifications and report your device location and battery state.
 

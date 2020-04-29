@@ -1,12 +1,15 @@
 # [Help pages](/help) - Connection
-If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
-{% include in_post.html %}
+
 - [Quick start](#quick-start)
 - [Advanced](#advanced)
   - [Port](#port)
   - [HTTP or HTTPS](#http-or-https)
   - [SSL Certificates](#ssl-certificates)
   - [Login with long-lived token](#login-with-long-lived-token)
+
+If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
+
+{% include in_post.html %}
 
 ## Quick start
 The quick and easy whay to connect HA Client with your Home Assistant server is to use [Remote UI](https://www.nabucasa.com/config/remote/). If you alredy had it set up, just open your Home Assistant UI in browser, go to **Configuration** - **Home Assistant Cloud**, find **Remote Control** section and copy the url from **Your instance is available at**.
