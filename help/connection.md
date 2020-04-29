@@ -77,4 +77,4 @@ To make HA Client use your generated long-lived token you need:
 
 
 
-### [What you need](/help/what_you_need) < Previous | Next > [Dashboards](/help/dashboards)
+### [What you need](/help/what_you_need) < Previous | Next > [User Interface](/help/user_interface)
