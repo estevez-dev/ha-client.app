@@ -22,12 +22,18 @@ a, a:link, a:visited, a:hover, a:active {
   background-size: cover;
   
   a {
-    color: white;
+    color: $primary-color;
+    background-color: rgba(255,255,255,0.7);
+    
+    h1 {
+      color: white;
+    }
   }
   
   a:hover {
-    color: white;
+    color: $primary-color;
     text-decoration: none;
+    background-color: rgba(255,255,255,0.9);
   }
 }
 
