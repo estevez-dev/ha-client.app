@@ -1,6 +1,6 @@
 # [Help pages](/help) - User interface
 If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
-
+{% include in_post.html %}
 - [Supported Lovelace Cards](#supported-cards)
 - [Additional UI tricks](#additional-ui-tricks)
 
