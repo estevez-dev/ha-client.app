@@ -23,5 +23,3 @@ If this documentation was not useful enough for you, feel free to ask any questi
   - [Media players](/help/additional_features#media-palyers)
   - [Lights](/help/additional_features#lights)
   - [Log viewer](/help/additional_features#log-viewer)
-
-{% include in_post.html %}
