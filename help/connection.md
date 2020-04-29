@@ -17,13 +17,13 @@ The quick and easy whay to connect HA Client with your Home Assistant server is 
 Then just go to **App settings** in HA Client, choose **Connection settings**, put copied url to **Home Assistant url** field ignoring all other fields and hit **Apply**.
 ![]()
 
-[Back to top](##documentation---connection)
+[Back to top](#documentation---connection)
 
 ## Advanced
 ### Port
 
 
-[Back to top](##documentation---connection)
+[Back to top](#documentation---connection)
 
 
 
