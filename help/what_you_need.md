@@ -1,4 +1,4 @@
-# [Documentation](/help) - What You Need
+# [Help pages](/help) - What You Need
 If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
 
 - [Home Assistant](#home-assistant)
@@ -15,11 +15,11 @@ mobile_app:
 
 Also to make HA Client work outside of your home network [remote access](https://www.home-assistant.io/docs/configuration/remote/) should be configured or [Remote UI](https://www.nabucasa.com/config/remote/) should be used.
 
-[Back to top](#documentation---what-you-need)
+[Back to top](#help-pages---what-you-need)
 
 ## Android
 Minimum supported Android API level is 21. That’s **Android 5.0** and higher.
 
-[Back to top](#documentation---what-you-need)
+[Back to top](#help-pages---what-you-need)
 
 ### Next > [Connection](/help/connection)
