@@ -1,4 +1,4 @@
-# [Documentation](/help) - Connection
+# [Help pages](/help) - Connection
 If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
 
 - [Quick start](#quick-start)
@@ -29,7 +29,7 @@ Now you need to login. And this process will be almost automatic thanks to [Home
 
 That's it! You are ready to go.
 
-[Back to top](#documentation---connection)
+[Back to top](#help-pages---connection)
 
 ## Advanced
 ### Port
@@ -41,7 +41,7 @@ If you are accessing your web interface without port, then you need to try port 
 
 You can also try to leave port number field blank to make HA Client to try to choose port for you. May be it will succeed.
 
-[Back to top](#documentation---connection)
+[Back to top](#help-pages---connection)
 ### HTTP or HTTPS
 You don't need to worry about this option if you are using [Remote UI](https://www.nabucasa.com/config/remote/). Just leave it as is.
 
@@ -49,13 +49,13 @@ It is not required to use secure connection. Just remember: if you are accessing
 
 But if you are using ssl (accessing web interface with `https://`) – your certificate should be valid and **not self-signed**. This is not a restriction of HA Client, but a known issue of Flutter framework.
 
-[Back to top](#documentation---connection)
+[Back to top](#help-pages---connection)
 ### SSL Certificates
 The main requirement is that your SSL Certificate should not be self-signed. Most certificates from providers like Let’s Encrypt will work. There is [known issue](https://github.com/estevez-dev/ha_client_pub/issues/24) with RapidSSL certificate, but this problem is common not only for HA Client.
 
 Using of self-signed certificate is not possible for now and this is a restriction of Flutter’s WebSocket implementation.
 
-[Back to top](#documentation---connection)
+[Back to top](#help-pages---connection)
 
 ### Login with long-lived token
 It is possible to generate long-lived token manually and set the app to use it instead of logging in with a simple OAuth way.
@@ -73,7 +73,7 @@ To make HA Client use your generated long-lived token you need:
   
   ![image](/help/images/connection009.png)
 
-[Back to top](#documentation---connection)
+[Back to top](#help-pages---connection)
 
 
 
