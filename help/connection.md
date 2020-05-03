@@ -12,19 +12,19 @@ If this documentation was not useful enough for you, feel free to ask any questi
 {% include in_post.html %}
 
 ## Quick start
-The quick and easy whay to connect HA Client with your Home Assistant server is to use [Remote UI](https://www.nabucasa.com/config/remote/). If you alredy had it set up, just open your Home Assistant UI in browser, go to **Configuration** - **Home Assistant Cloud**, find **Remote Control** section and copy the url from **Your instance is available at**.
+When first launching the app you will be presented with Quick start screen asking you to provide your Home Assistant url and [device name](/help/mobile_app_integration#device-name) for [Mobile App integration](/help/mobile_app_integration).
+
+![image](/help/images/connection010.png)
+
+You can just copy your Home Assistant url from browser and use it in the app:
+
+![image](/help/images/connection011.png)
+
+The easy and secure way to aceess you Home Assistant from anywhere (not only from your local network at home) is [Remote UI](https://www.nabucasa.com/config/remote/). If you alredy had it set up, just open your Home Assistant UI in browser, go to **Configuration** - **Home Assistant Cloud**, find **Remote Control** section and copy the url from **Your instance is available at**.
 
 ![image](/help/images/connection001.png)
 
 ![image](/help/images/connection002.png)
-
-Then just go to **App settings** in HA Client, choose **Connection settings**, put copied url to **Home Assistant url** field ignoring all other fields and hit **Apply**.
-
-![image](/help/images/connection003.png)
-
-![image](/help/images/connection004.png)
-
-![image](/help/images/connection005.png)
 
 Now you need to login. And this process will be almost automatic thanks to [Home Assistant Authentication API](https://developers.home-assistant.io/docs/en/auth_api.html). You'll see a login form loaded directly from your Home Assistant instance:
 
