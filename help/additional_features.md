@@ -2,7 +2,6 @@
 
 - [Media players](#media-palyers)
 - [Lights](#lights)
-- [Log viewer](#log-viewer)
 
 If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
 
@@ -39,18 +38,6 @@ There is an options for each media player to switch media from one to another. I
 You can copy current color of any RGB light and paste it to other light.
 
 ![image](/help/images/additional_features008.png)
-
-[Back to top](#help-pages---additional-features)
-
-## Log viewer
-
-There is a built in debug messages viewer in the app. You can access it with **Log** item in main menu. It will be very helpful if you will attach a copy of this log to your issue report. It is easy to do with button in top right corner that will copy all log entries to clipboard.
-
-![image](/help/images/additional_features001.png)
-
-![image](/help/images/additional_features002.png)
-
-Please note that oldest entries goes first, so to see latest messages you need to scroll this view down.
 
 [Back to top](#help-pages---additional-features)
 

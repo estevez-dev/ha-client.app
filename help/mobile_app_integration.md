@@ -25,7 +25,7 @@ You can find **Integration settings** in **App settings** from main HA Client me
 
 [Back to top](#help-pages---mobile-app-integration)
 
-## Devcie name
+## Device name
 On [first app start](/help/connection#quick-start) you can choose device name for your integration. All entity names created by this integration will depend on that name.
 
 If you want to change device name for already created integration, you need to remove *Mobile App: [your device name]* from Home Assistant **Configuration** - **Integrations**, then restart your server and launch HA Client once again. The app will ask you to create new integration allowing to change default device name.
@@ -59,6 +59,8 @@ After mobile app will be registered and your Home Assistant will be restarted yo
 ![image](/help/images/mobile_app_integration006.png)
 
 [Back to top](#help-pages---mobile-app-integration)
+
+{% include in_post.html %}
 
 ## Troubleshooting
 If notifications or location tracking doesn't work, first thing you need to check is entities name you are using. You can check that in **Configuration** - **Integrations** - **Mobile App: [your device name]** in your Home Assistant.

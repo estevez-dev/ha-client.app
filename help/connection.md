@@ -34,6 +34,8 @@ That's it! You are ready to go.
 
 [Back to top](#help-pages---connection)
 
+{% include in_post.html %}
+
 ## Advanced
 ### Port
 You don't need to worry about port if you are using [Remote UI](https://www.nabucasa.com/config/remote/). Just leave it blank.
