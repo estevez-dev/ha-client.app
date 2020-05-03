@@ -1,7 +1,9 @@
 # 1.0.0-alpha1
-With 1.0.0 version update HA Client hits a huge milestone - **first stable release**. I wnat to thanks everybody who used this app in beta and helped me to make it so good. I'm happy with the resuts but there is still so much wotk to do.
+With 1.0.0 version update HA Client will hit a huge milestone - **first stable release**.
 
-This version is **alpha1** and you got it because you were opted-in for alpha testing, propably long time ago.
+I wnat to thanks everybody who used this app in beta and alpha and helped me to make it so good. I'm happy with the resuts but there is still so much wotk to do.
+
+This version is **alpha1** and you've got it because you were opted-in for alpha testing, propably long time ago.
 
 You can opt-out from alpha program contacting me in Discord to get only stable releases. The link to Discord chat could be found in main app menu. Probably you'll need to opt-out from beta program as well. This could be done in Google Play on HA Client page. Or you can stay and help to improve HA Client further.
 
