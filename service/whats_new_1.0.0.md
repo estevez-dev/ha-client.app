@@ -1,7 +1,9 @@
-# 1.0.0
-With 1.0.0 version update HA Client hits a huge milestone - **first stable release**. I wnat to thanks everybody who used this app in beta and helped me to make it so good. I'm happy with the resuts but there is still much wotk left to do.
+# 1.0.0-alpha1
+With 1.0.0 version update HA Client hits a huge milestone - **first stable release**. I wnat to thanks everybody who used this app in beta and helped me to make it so good. I'm happy with the resuts but there is still so much wotk to do.
 
-You can opt-out from beta program in Google Play now to get only stable releases. Or you can stay and help to improve HA Client further.
+This version is **alpha1** and you got it because you were opted-in for alpha testing, propably long time ago.
+
+You can opt-out from alpha program contacting me in Discord to get only stable releases. The link to Discord chat could be found in main app menu. Probably you'll need to opt-out from beta program as well. This could be done in Google Play on HA Client page. Or you can stay and help to improve HA Client further.
 
 - **New application icon** with adoptive version for Android 8 and higher
 - **Current light color** display as a badge on entity icon
