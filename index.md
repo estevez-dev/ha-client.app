@@ -8,6 +8,6 @@ The main idea is:
 
 Join [beta testing](/beta-testing).
 
-Join HA Client community on [Discord](https://discord.gg/nd6FZQ) or discuss it at [Home Assistant Community](https://community.home-assistant.io/c/mobile-apps/ha-client-android)
+Join HA Client community on [Discord](https://discord.gg/u9vq7QE) or discuss it at [Home Assistant Community](https://community.home-assistant.io/c/mobile-apps/ha-client-android)
 
 See release notes for all releases on [github](https://github.com/estevez-dev/ha_client/releases)

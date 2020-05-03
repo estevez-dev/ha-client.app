@@ -1,5 +1,5 @@
 # Documentation
-If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
+If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/u9vq7QE)
 ## Table of content
 - [Requirements](#requirements)
   - [Home Assistant general](#home-assistant-general)
@@ -123,7 +123,7 @@ For now notificationas could only have title and text. No actions supported yet.
 ```
 The `title` is not mandatory, by defauld it will be "HA Client".
 
-Please note: there is a restriction on daily notifications count for each device: **150**. 
+Please note: there is a restriction on daily notifications count for each device: **150**.
 ### Location tracking
 **(HA Client >= 0.7.0)**
 Starting from version 0.7.0 HA Client supports updating `device_tracker` entity with real device GPS location. The app [should be registered in your HA](#mobile-app-integration) and HA need to be restarted to make it work.
@@ -153,7 +153,7 @@ Then just open HA Client app. It will check mobile app integration and ask you t
 #### Location tracking issues
 - If the [issue with duplicate integration](#notification-issues) is not your case but your `device_tracker` location is not updating as intended, please check [location tracking section](#if-you-want-your-location-to-be-updated-with-exact-the-same-intervhals-you-set-in-ha-client) of this guide.
 - Also make sure the Location permission is granted for HA Client.
-- You can disable background location tracking task and enable it again to resolve possible issues. Go to _Integration settings_ from HA Client main menu and disable Location tracking to cancel backgroud tasks. Then enable it back. 
+- You can disable background location tracking task and enable it again to resolve possible issues. Go to _Integration settings_ from HA Client main menu and disable Location tracking to cancel backgroud tasks. Then enable it back.
 
 [Back to top](#documentation)
 ## UI Configuration

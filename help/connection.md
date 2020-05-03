@@ -7,7 +7,7 @@
   - [SSL Certificates](#ssl-certificates)
   - [Login with long-lived token](#login-with-long-lived-token)
 
-If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/nd6FZQ)
+If this documentation was not useful enough for you, feel free to ask any question in [HA Client on Descord](https://discord.gg/u9vq7QE)
 
 {% include in_post.html %}
 
