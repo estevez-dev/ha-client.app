@@ -1,5 +1,5 @@
 # 1.0.0
-With 1.0.0 version update HA Client hits a huge milestone - **first stable release**. I wnat to thanks everybody who user this app in beta and helped me to make it so good. I'm happy with the resuts but there is still much wotk left to do.
+With 1.0.0 version update HA Client hits a huge milestone - **first stable release**. I wnat to thanks everybody who used this app in beta and helped me to make it so good. I'm happy with the resuts but there is still much wotk left to do.
 
 You can opt-out from beta program in Google Play now to get only stable releases. Or you can stay and help to improve HA Client further.
 
