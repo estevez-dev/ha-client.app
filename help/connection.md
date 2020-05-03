@@ -72,9 +72,11 @@ To make HA Client use your generated long-lived token you need:
   ![image](/help/images/connection008.png)
 
 3. Give it a name `HA Client` as it will be used only for HA Client app (it is recommended to use different access tokens for different apps and services)
-4. Click **Ok** and copy newly generated access token somewhere in a safe place or directly to **Connection settings** of HA Client and hit **Apply**
+4. Click **Ok** and copy newly generated access token somewhere in a safe place or directly to **HA Client**:
   
   ![image](/help/images/connection009.png)
+
+  ![image](/help/images/connection012.png)
 
 [Back to top](#help-pages---connection)
 
