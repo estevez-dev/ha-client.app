@@ -1,7 +1,7 @@
 # 1.0.0-beta
 With 1.0.0 version update HA Client will hit a huge milestone - **first stable release**.
 
-I wnat to thanks everybody who used this app in beta and alpha and helped me to make it so good. I'm happy with the resuts but there is still so much wotk to do.
+I want to thanks everybody who used this app in beta and alpha and helped me to make it so good. I'm happy with the resuts but there is still so much wotk to do.
 
 This version is **beta** and you've got it because you were opted-in for beta testing.
 
