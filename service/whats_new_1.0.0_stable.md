@@ -3,7 +3,7 @@ With 1.0.0 version update HA Client hits a huge milestone - **first stable relea
 
 I want to thanks everybody who used this app in beta and alpha and helped me to make it so good. I'm happy with the resuts but there is still so much wotk to do.
 
-If you was using HA Client prior the version 1.0.0 you can opt-out from beta program in Google Play on HA Client page to get only stable versions. Or you can stay and help to improve HA Client further.
+Beta program will be closed for now to force all users to use stable version.
 
 - **New application icon** with adoptive version for Android 8 and higher
 - **Current light color** display as a badge on entity icon
