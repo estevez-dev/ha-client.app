@@ -6,4 +6,4 @@ The biggest contribution you can make to HA Client is to take part in testing an
 
 The old alpha and beta programs has been closed after stable version release. This was done to make everyone to get stable version without opting-out from beta program.
 
-New beta-testing program not be public. To join beta testing you'll need to join [Discord server](https://discord.gg/u9vq7QE) and ask to join beta there.
+New beta testing program is not public. To join beta testing you'll need to join [Discord server](https://discord.gg/u9vq7QE) and ask to join beta there.
