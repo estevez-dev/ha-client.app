@@ -1,10 +1,7 @@
 New, truly native Home Assistant Android client with Lovelace UI, notifications and location tracking.
 It is fast and comfortable. It is designed to make all Home Assistant users with Android phones happy. Well, that is planned.
 
-The main idea is:
-
-- To build an app that will present most of Home Assistant web-based UI in a native Android way with fast navigation and interaction
-- To add custom functionality like widget, smart watch support and so on
+<a href='https://play.google.com/store/apps/details?id=com.keyboardcrumbs.haclient&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
 
 Join [beta testing](/beta-testing).
 
