@@ -11,5 +11,5 @@
 - Entity icons display improvements
 - Fix of empty stack cards issue
 - Improve HA OAuth login for old devices
-- Unneeded external bus support disabled for athenticated webview
+- Unneeded external bus support disabled for authenticated webview
 - Bug fixes
