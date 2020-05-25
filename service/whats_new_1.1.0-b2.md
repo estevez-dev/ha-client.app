@@ -1,5 +1,6 @@
 ## 1.1.0-beta2
-- **Actionable notifications**. Actions could call service or fire events.
+- **Actionable notifications**. Actions could call service or fire events. The event type is `ha_client_event`.
+- **Images in notifications**. Just add `image` to the notification `data`.
 ## 1.1.0-beta
 - **Full badges support** including *entity_filter*
 - **Light card suppot**. Brightness could be changed by tapping, but not dragging for now. Dragging support will be added later
