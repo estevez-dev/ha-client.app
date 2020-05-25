@@ -32,15 +32,50 @@ If you want to change device name for already created integration, you need to r
 
 ## Notifications
 
-HA Client supports sending notifications from Home Assistant to the app.
+HA Client supports sending notifications with custom actions from Home Assistant to the app. Actions could trigger events of call services.
 
-For now notificationas could only have title and text. No actions supported yet. After mobile app will be registered and your Home Assistant will be restarted you'll get a new `notify` like `notify.mobile_app_egor_s_pixel_3_xl` (depends on [device name](#device-name)). It can be used to send notifications to HA Client on a specific device. Just call this service with some data:
+After mobile app will be registered and your Home Assistant will be restarted you'll get a new `notify` like `notify.mobile_app_egor_s_pixel_3_xl` (depends on [device name](#device-name)). It can be used to send notifications to HA Client on a specific device. Just call this service with data:
 
 ```yaml
-{"title":"Oi!", "message":"Something is moving on your backyard!"}
+title:"Oi!"
+message: "Something is moving on your backyard!"
+data:
+  tag: camera_movement
+  image: http://myserver.co.uk/cameraImage.jpeg
+  autoDismiss: false
+  actions:
+    - action: call-service
+      title: "Service action"
+      service: light.turn_on
+      service_data:
+        entity_id: light.living_room
+    - action: my_action
+      title: "Event action"
 ```
+#### options for **notify** service data
+| Option | Value | Description |
+| ------------- |:-------------:| ----- |
+| title  | *String* | Notification title. Default is `HA Client` |
+| message | *String*  | Notification body |
+| data | *Object*  | Notification settings |
 
-The `title` is not mandatory, by defauld it will be "HA Client".
+#### options for **data**
+| Option | Value | Description |
+| ------------- |:-------------:| ----- |
+| tag  | *String* | Notification tag. Not mandatory. Use it to replace existing notification with the same tag |
+| image | *String*  | Image url to be shown in notification |
+| dismiss | **true** or **false** | Use it to dismiss excisting notification with specific `tag`. Default is **false** |
+| autoDismiss |  **true** or **false** | If **false** notification will not be dismissed after click/tap on its body or action. Default is **true** |
+| channelId | *String*  | Custom notification channel to create and use. Default is `ha_notify` |
+| actions | *List*  | Up to 3 actions to add to the notification |
+
+#### options for **actions** item
+| Option | Value | Description |
+| ------------- |:-------------:| ----- |
+| action | **call-service** or  *String* | Will try to call service or fire an event to your Home Assistant. Event type will be `ha_client_event` and `action` value will be passed in `data` of event |
+| title | *String*  | Button title for action |
+| service | *String* | Home Assistant service to be called if `action` is `call-service` |
+| service_data |  *Object* | Any set of data to be passed to `service`. For example: `entity_id` |
 
 [Back to top](#help-pages---mobile-app-integration)
 
