@@ -37,7 +37,7 @@ HA Client supports sending notifications with custom actions from Home Assistant
 After mobile app will be registered and your Home Assistant will be restarted you'll get a new `notify` like `notify.mobile_app_egor_s_pixel_3_xl` (depends on [device name](#device-name)). It can be used to send notifications to HA Client on a specific device. Just call this service with data:
 
 ```yaml
-title:"Oi!"
+title: "Oi!"
 message: "Something is moving on your backyard!"
 data:
   tag: camera_movement
@@ -53,6 +53,7 @@ data:
       title: "Event action"
 ```
 #### options for **notify** service data
+
 | Option | Value | Description |
 | ------------- |:-------------:| ----- |
 | title  | *String* | Notification title. Default is `HA Client` |
@@ -60,6 +61,7 @@ data:
 | data | *Object*  | Notification settings |
 
 #### options for **data**
+
 | Option | Value | Description |
 | ------------- |:-------------:| ----- |
 | tag  | *String* | Notification tag. Not mandatory. Use it to replace existing notification with the same tag |
@@ -70,6 +72,7 @@ data:
 | actions | *List*  | Up to 3 actions to add to the notification |
 
 #### options for **actions** item
+
 | Option | Value | Description |
 | ------------- |:-------------:| ----- |
 | action | **call-service** or  *String* | Will try to call service or fire an event to your Home Assistant. Event type will be `ha_client_event` and `action` value will be passed in `data` of event |
