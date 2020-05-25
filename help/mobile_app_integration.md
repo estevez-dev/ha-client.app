@@ -55,7 +55,7 @@ data:
 #### options for **notify** service data
 
 | Option | Value | Description |
-| ------------- |:-------------:| ----- |
+| ------------- | ------------- | ----- |
 | title  | *String* | Notification title. Default is `HA Client` |
 | message | *String*  | Notification body |
 | data | *Object*  | Notification settings |
@@ -63,19 +63,19 @@ data:
 #### options for **data**
 
 | Option | Value | Description |
-| ------------- |:-------------:| ----- |
+| ------------- | ------------- | ----- |
 | tag  | *String* | Notification tag. Not mandatory. Use it to replace existing notification with the same tag |
 | image | *String*  | Image url to be shown in notification |
-| dismiss | **true** or **false** | Use it to dismiss excisting notification with specific `tag`. Default is **false** |
-| autoDismiss |  **true** or **false** | If **false** notification will not be dismissed after click/tap on its body or action. Default is **true** |
+| dismiss | `true` or `false` | Use it to dismiss excisting notification with specific `tag`. Default is `false` |
+| autoDismiss |  `true` or `false` | If `false` notification will not be dismissed after click/tap on its body or action. Default is `true` |
 | channelId | *String*  | Custom notification channel to create and use. Default is `ha_notify` |
 | actions | *List*  | Up to 3 actions to add to the notification |
 
 #### options for **actions** item
 
 | Option | Value | Description |
-| ------------- |:-------------:| ----- |
-| action | **call-service** or  *String* | Will try to call service or fire an event to your Home Assistant. Event type will be `ha_client_event` and `action` value will be passed in `data` of event |
+| ------------- | ------------- | ----- |
+| action | `call-service` or  *String* | Will try to call service or fire an event to your Home Assistant. Event type will be `ha_client_event` and `action` value will be passed in `data` of event |
 | title | *String*  | Button title for action |
 | service | *String* | Home Assistant service to be called if `action` is `call-service` |
 | service_data |  *Object* | Any set of data to be passed to `service`. For example: `entity_id` |
