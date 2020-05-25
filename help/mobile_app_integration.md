@@ -82,6 +82,8 @@ data:
 
 [Back to top](#help-pages---mobile-app-integration)
 
+{% include in_post.html %}
+
 ## Location tracking
 
 HA Client supports updating `device_tracker` entity with real device GPS location.
