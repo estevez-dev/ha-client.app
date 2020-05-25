@@ -1,7 +1,5 @@
-## 1.1.0-beta2
 - **Actionable notifications**. Actions could call service or fire events. The event type is `ha_client_event`.
-- **Images in notifications**. Just add `image` to the notification `data`.
-## 1.1.0-beta
+- **Additional notification options**. Add `image` to the notification `data` with image url to show image in notification. Use `tag` in notification `data` to replace already exsisting notification with the same `tag`. Use `dismiss: true` in notification `data` to dismiss previously shown notification with the same `tag`. Use `autoDismiss: false` to prevent notification from being dismissed after tap/click. Use `channelId` to create and use custom notification channels.
 - **Full badges support** including *entity_filter*
 - **Light card suppot**. Brightness could be changed by tapping, but not dragging for now. Dragging support will be added later
 - **States-like UI** are now generated if you don't have Lovlease UI config yet
