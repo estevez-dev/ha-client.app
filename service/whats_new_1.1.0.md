@@ -1,3 +1,4 @@
+## 1.1.0-beta
 - **Full badges support** including *entity_filter*
 - **Light card suppot**. Brightness could be changed by tapping, but not dragging for now. Dragging support will be added later
 - **States-like UI** are now generated if you don't have Lovlease UI config yet
