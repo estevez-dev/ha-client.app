@@ -19,6 +19,7 @@ data:
 - **Full badges support** including *entity_filter*
 - **Light card suppot**. Brightness could be changed by tapping, but not dragging for now. Dragging support will be added later
 - **States-like UI** are now generated if you don't have Lovlease UI config yet
+- **Fullscreen mode**
 - **Quick access buttons** moved to the center of app header. New button for lights added allowing to turn on or off all lights
 - Lables for Light controll sliders
 - Getting Lovelace UI config now works fine with HA < 0.107
