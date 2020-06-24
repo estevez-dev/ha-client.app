@@ -57,7 +57,7 @@ data:
 | Option | Value | Description |
 | ------------- | ------------- | ----- |
 | title  | *String* | Notification title. Default is `HA Client` |
-| message | *String*  | Notification body |
+| message | *String*  | Notification body. This field is required by Home Assistant. You need to add it event if you want to dismiss any notification. |
 | data | *Object*  | Notification settings |
 
 #### options for **data**
@@ -66,7 +66,7 @@ data:
 | ------------- | ------------- | ----- |
 | tag  | *String* | Notification tag. Not mandatory. Use it to replace existing notification with the same tag |
 | image | *String*  | Image url to be shown in notification |
-| dismiss | `true` or `false` | Use it to dismiss excisting notification with specific `tag`. Default is `false` |
+| dismiss | `true` or `false` | Use it to dismiss excisting notification with specific `tag`. Default is `false`. Note that `message` field is always required so you need to use it even in case of dismissing any notification. Just use any random value for `message` |
 | autoDismiss |  `true` or `false` | If `false` notification will not be dismissed after click/tap on its body or action. Default is `true` |
 | channelId | *String*  | Custom notification channel to create and use. Default is `ha_notify` |
 | actions | *List*  | Up to 3 actions to add to the notification |
